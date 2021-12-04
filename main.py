@@ -5,18 +5,20 @@ def add(*args):
     for n in args:
 
         count +=n
-    print(f"Add results: {count}")
+
+    print(f"Add function result: {count}")
+
     return count
 
-add(2,3,4,5,6,7)
 
 
 def multiply(*args):
-    count= 1
-    for n in args:
-        count*=n
-    print(f"Multiply results: {count}")
 
+    count = 1
+    for n in args:
+
+        count *=n
+    print(f"Multiply function result: {count}")
     return count
 
-multiply(2,3,4,5,6,7)
+
