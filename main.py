@@ -12,7 +12,7 @@ def multiply(*args):
     count = 1
     for n in args:
         count *= n
-    print(f"Multiply function results: {count}")
+    print(f"Find Multiply function results: {count}")
     return count
 
 
