@@ -13,8 +13,7 @@ def multiply(*args):
     for n in args:
         count *= n
     print(f"Find Multiply function results: {count}")
-    print(" Updating multiply function test one")
-    print(" Updating multiply function test two")
+
     return count
 
 
