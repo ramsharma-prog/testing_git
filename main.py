@@ -13,9 +13,13 @@ def multiply(*args):
     for n in args:
         count *= n
     print(f"Find Multiply function results: {count}")
-
     return count
 
+
+def square(*args):
+    for n in args:
+        count = n**2
+        print(count)
 
 def calculate(fun, *args):
     """ Takes functions"""
@@ -23,4 +27,4 @@ def calculate(fun, *args):
 
 
 # Call calculate function #
-calculate(add, 1, 2, 3, 4, 5, )
+calculate(square, 1, 2, 3, 4, 5, )
