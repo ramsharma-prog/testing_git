@@ -3,7 +3,7 @@ def add(*args):
     count = 0
     for n in args:
         count += n
-    print(f"Find add function results: {count}")
+    print(f"Add function results: {count}")
     return count
 
 
@@ -12,14 +12,14 @@ def multiply(*args):
     count = 1
     for n in args:
         count *= n
-    print(f"Find Multiply function results: {count}")
+    print(f"Multiply function results: {count}")
     return count
 
 
 def square(*args):
     for n in args:
         count = n**2
-        print(count)
+        print(f"Square root results: {count}")
 
 def calculate(fun, *args):
     """ Takes functions"""
