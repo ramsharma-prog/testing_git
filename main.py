@@ -3,8 +3,7 @@ def add(*args):
     count = 0
     for n in args:
         count += n
-    print(f"Add function results: {count}")
-    print("Some changes made on branch")
+    print(f"Find add function results: {count}")
     return count
 
 
