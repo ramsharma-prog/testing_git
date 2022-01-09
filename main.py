@@ -3,7 +3,7 @@ def add(*args):
     count = 0
     for n in args:
         count += n
-    print(f"Add function results: {count}")
+    print(f"Displaying add function results: {count}")
     return count
 
 
